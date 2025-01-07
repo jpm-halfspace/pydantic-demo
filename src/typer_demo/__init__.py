@@ -9,4 +9,4 @@ class Settings(BaseSettings):
 
 if __name__ == "__main__":
     settings = CliApp.run(Settings)
-    print(settings)
+    print(f"Hello, {settings.name}!")
